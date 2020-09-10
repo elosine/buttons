@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  color: #89867e;
+  /* background: #fff; */
+  background: black;
+}
+
+/* General button style (reset) */
+.btn {
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding: 20px 20px;
+  margin: 10px 10px;
+  border: none;
+  font-family: 'Lato';
+  font-size: 14px;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  display: inline-block;
+  text-transform: uppercase;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Button 2 */
+.btn-2 {
+  background: #cb4e4e;
+  color: #fff;
+  box-shadow: 0 6px #ab3c3c;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+
+/* Button 2d */
+.btn-2d {
+  border-radius: 5px;
+}
+
+.btn-2d:hover {
+  box-shadow: 0 8px #ab3c3c;
+  top: -2px;
+}
+
+.btn-2d:active {
+  box-shadow: 0 0 #ab3c3c;
+  top: 6px;
+}
